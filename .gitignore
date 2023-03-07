@@ -1,5 +1,6 @@
 # Editors
 .vscode/
+.idea/
 
 # OS artifacts
 .DS_Store
