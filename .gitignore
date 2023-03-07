@@ -9,6 +9,10 @@ Thumbs.db
 # vscode-sops
 .decrypted~*.yaml
 
+# Env files
+*.envrc
+*.env
+
 # Local .terraform directories
 **/.terraform/*
 
@@ -43,7 +47,3 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
-
-# Env files
-*.envrc
-*.env
