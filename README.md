@@ -23,9 +23,12 @@ GitOps Kubernetes Cluster with Flux2 and Infrastructure as Code (IaC) with Terra
 
 ## Template introductions - remove me when initialized
 
-- update "customer" in readme h1
-- update link to remote state file below
-- update crypto key link for sops in .sops.yaml
+- README.md: update h1
+- README.md: update link to remote state file below
+- .sops.yaml: update crypto key link for sops
+- .github/workflows/terraform.yaml: update `env` and `runs-on`
+
+See Confluence reference for Github Actions.
 
 <details>
   <summary style="font-size:1.2em;">Table of Contents</summary>
