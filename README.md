@@ -58,7 +58,6 @@ Pattern: `[a-z-]+`
 ### Prerequisties
 
 - [pre-commit][pre-commit-url]
-- [yamllint][yamllint]
 
 ### Initialize repository
 
@@ -136,14 +135,13 @@ This enables Flux to decrypt secrets with SOPS. For more information how this wo
 <!-- Links -->
 
 [kubernetes-best-practices]: https://kubernetes.io/docs/concepts/configuration/overview/
-[yamllint]: https://github.com/adrienverge/yamllint
 [@signageos/vscode-sops]: https://marketplace.visualstudio.com/items?itemName=signageos.signageos-vscode-sops
 [flux]: https://fluxcd.io/flux/
 [flux-sops]: https://fluxcd.io/flux/guides/mozilla-sops/
 
 <!-- Badges -->
 
-[pre-commit-shield]: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&style=for-the-badge
+[pre-commit-shield]: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit
 [pre-commit-url]: https://github.com/pre-commit/pre-commit
 [taskfile-url]: https://taskfile.dev/
-[taskfile-shield]: https://img.shields.io/badge/Taskfile-Enabled-brightgreen?style=for-the-badge&logo=task
+[taskfile-shield]: https://img.shields.io/badge/Taskfile-Enabled-brightgreen?logo=task
