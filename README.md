@@ -19,6 +19,8 @@
 
 GitOps Kubernetes Cluster for Customer. Infrastructure as Code (IaC) with Flux2.
 
+:warning: Connecting to the cluster's API endpoint (e.g. using `kubectl` or `k9s`) requires being connected to the STRG VPN first. :warning:
+
 <details>
   <summary style="font-size:1.2em;">Table of Contents</summary>
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
