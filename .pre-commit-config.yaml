@@ -40,8 +40,8 @@ repos:
       - id: detect-private-key
       - id: end-of-file-fixer
       - id: fix-byte-order-marker
-      - id: no-commit-to-branch
       - id: mixed-line-ending
+      - id: no-commit-to-branch
       - id: trailing-whitespace
       # format-specific
       - id: check-json
