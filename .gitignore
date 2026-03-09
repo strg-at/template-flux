@@ -1,17 +1,29 @@
-# Editors
-.vscode/
-.idea/
+# Ignore everything
+*
 
-# OS artifacts
-.DS_Store
-Thumbs.db
+# Allow files and directories
+!.github/
+!.github/**
+!.taskfiles/
+!.taskfiles/**
+!kubernetes/
+!kubernetes/**
+!.editorconfig
+!.gitignore
+!.markdownlint.yaml
+!.pre-commit-config.yaml
+!.prettierignore
+!.prettierrc.yaml
+!.sops.yaml
+!.yamllint.yaml
+!CODEOWNERS
+!LICENSE
+!README.md
+!Taskfile.yaml
 
-# vscode-sops
-.decrypted~*.yaml
-
-# Env files
-*.envrc
-*.env
-
-# Crash log files
-crash.log
+# Ignore unnecessary files and directories inside allowed directories
+# This should go after the allowed directories
+**/*~
+**/*.log
+**/.DS_Store
+**/Thumbs.db
